@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+.row{
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+.heading{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.sub-heading{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.des{
+    font-size: 20px;
+    color: #fac996;
+}
+#des{
+    font-size: 20px;
+    color: #48c1e9;
+}
+p{
+    font-size: 17px;
+    font-weight: 300;
+}
+#container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background: url(../Mobile/img/header.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-bottom: -350px;
+}
+.logo-part{
+    text-align: left;
+    padding: 25px 50px;
+}
+.menu-part ul{
+    text-align: end;
+    padding: 10px;
+}
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+    transition: ease-in-out .5s;
+}
+.menu-part li a{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.menu-part li:hover{
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+}
+.hero-part{
+    padding: 100px 200px;
+}
+.btn{
+    margin: 50px 0px;
+}
+.btn button{
+    background-color: #24b8ef;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin: 0px 7px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+#info{
+    background: url(../Mobile/img/body.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 250px 0px 150px;
+}
+.img{
+    width: 60%;
+    padding-top: 150px;
+}
+.info-box-part{
+    padding:50px;
+}
+.info-box{
+    padding: 50px 10px;
+    box-shadow: 0 0 10px;
+}
+.one{
+    position: relative;
+    background-color: white;
+    bottom: 50px;
+    right: 30px;
+    border-radius: 10px;
+}
+.two{
+     position: relative;
+    background-color: white;
+    top: 50px;
+    border-radius: 10px;
+}
+.three{   position: relative;
+    background-color: white;
+    right: 50px;
+    border-radius: 10px;
+}
+.four{   position: relative;
+    background-color: white;
+    bottom: 50px;
+    top: 100px;
+    right: 25px;
+    border-radius: 10px;
+}
+.service-part{
+    background-color: #ffffff;
+    text-align: center;
+}
+.service-writting-part{
+    text-align: right;
+    padding: 50px;
+}
+.service-box-part{
+    text-align: left;
+    padding: 50px 10px 50px 50px;
+}
+.service-box{
+    padding: 20px;
+    box-shadow: 0 0 5px;
+}
+#two{
+    background-color: #47c3fa;
+}
+/* .service-img{
+    padding: 0px 50px 0px 0px;
+    text-align: left;
+} */
+#service-writting-part{
+    padding-top: 30px;
+    text-align: left;
+}
+.service-img img{
+    width: 80%;
+}
+#app{
+    background-color: #39b6f1;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 0px 150px;
+}
+.app-writting-part{
+    padding: 50px;
+    position: relative;
+    top: 150px;
+    text-align: left;
+}
+#app-button{
+    position: relative;
+    top: 374px;
+    right: 200px;
+    padding: 10px;
+    background-color: #fb5d7f;
+}
+#marketing{
+    background-color: #ffffff;
+    text-align: center;
+    padding:100px 150px;
+}
+.marketing-box{
+    margin: 20px 0;
+    text-align: left;
+}
+#username{
+    background-color: #f7e5f8;
+    padding: 10px 17px;
+    margin-right: 10px;
+    width: 60%;
+}
+#submit{
+    background-color: #47c3fa;
+    padding: 10px;
+}
+.footer-writting{
+    padding: 7px;
+}
+footer{
+    background-color: #393357;
+    color: #ffffff;
+    padding: 200px;
+}
+footer ul{
+    padding: 7px;
+    text-align: end;
+}
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.col-1 {width: 8.33%; float: left;}
+.col-2 {width: 16.66%; float: left;}
+.col-3 {width: 25%; float: left;}
+.col-4 {width: 33.33%; float: left;}
+.col-5 {width: 41.66%; float: left;}
+.col-6 {width: 50%; float: left;}
+.col-7 {width: 58.33%; float: left;}
+.col-8 {width: 66.66%; float: left;}
+.col-9 {width: 75%; float: left;}
+.col-10 {width: 83.33%; float: left;}
+.col-11 {width: 91.66%; float: left;}
+.col-12 {width: 100%; float: left;}
